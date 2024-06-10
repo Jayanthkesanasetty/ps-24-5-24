@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<pre style="font-size: larger;">
+    //  1) Write a program to print even numbers in the given range 1,
+    
+    -------code--------
+
+    a=+prompt("ENTER INPUT VALUE: ");
+    for(i=1;i<=a;i++){
+        if (i%2==0) {
+            console.log("EVEN NUMBERS FROM 1 TO "+a +" ARE: "+i);
+        }
+    }
+
+    ------output------
+    EVEN NUMBERS FROM 1 TO 10 ARE: 2
+    EVEN NUMBERS FROM 1 TO 10 ARE: 4
+    EVEN NUMBERS FROM 1 TO 10 ARE: 6
+    EVEN NUMBERS FROM 1 TO 10 ARE: 8
+    EVEN NUMBERS FROM 1 TO 10 ARE: 10
+
+
+    //2) Write a program to print sum of odd numbers in the fibonnaci series
+    
+    -------code--------
+
+    num=+prompt("enter number");
+    a=0,b=1;
+    if(num==1){
+        console.log("PLS ENTER VALID INPUT");
+    }
+    else{   
+        var z=0;
+    for(i=0;i< num;i++){
+        if(a%2==1){
+             z=z+a;
+        }
+    c=a+b;5
+    a=b,b=c;
+    }
+    console.log(z);
+}
+
+    ------output------
+    enter number: 5 
+                5
+
+
+    //3) Write a program to print sum of odd numbers in the fibonnaci series and number should be added only once
+
+    -------code--------
+
+    var num=+prompt("ent val :  ")
+        a=0,b=1
+        c=a+b
+        emp=0,e=0
+        for(i=0;i< num;i++){
+            console.log(a)
+            if(a%2==1){
+            emp=emp+a;
+        }
+        c=a+b
+        a=b
+        b=c
+    }
+    e=emp-1
+        console.log("sum of odd fibonacci number are "+e);
+      
+    ------output------
+    ent val :
+        sum of odd fibonacci number are 98
+
+
+
+    //4)Write a program to print the below series based on input
+    //Enter a number: -10 (should not use <= operator)
+    //output: -10 -9 -8 - 7 -6 - 5 - 4,,, -1
+    //output: -1-2-3 ,,, -10 (should not use >= operator) 
+
+    -------code--------
+    
+    var a=-10;
+    b=[];
+   while (true) {
+    if(a==0){
+        break;
+    }
+    else{
+        b.push(a);
+    }
+    a++;
+   }
+   console.log(b);
+   console.log(b.reverse());
+
+   ------output------
+    [-10, -9, -8, -7, -6, -5, -4, -3, -2, -1]
+
+    [-1, -2, -3, -4, -5, -6, -7, -8, -9, -10]
+
+</pre>
+
+    <h1 class="a">HELLO HII</h1>
+    <h2 class="a">hddd</h2>
+    <h4 id="b">hell</h4>
+    <script>
+    //    //  1) Write a program to print even numbers in the given range 1,
+        // a=+prompt("ENTER INPUT VALUE: ");
+        // for(i=1;i<=a;i++){
+        //     if (i%2==0) {
+        //         console.log("EVEN NUMBERS FROM 1 TO "+a +" ARE: "+i);
+        //     }
+        // }
+
+
+    //     //2) Write a program to print sum of odd numbers in the fibonnaci series
+    //     num=+prompt("enter number");
+    //     a=0,b=1;
+    //     if(num==1){
+    //         console.log("PLS ENTER VALID INPUT");
+    //     }
+    //     else{   
+    //         var z=0;
+    //     for(i=0;i<num;i++){
+    //         if(a%2==1){
+    //              z=z+a;
+    //         }
+    //     c=a+b;5
+    //     a=b,b=c;
+    //     }
+    //     console.log(z);
+    // }
+
+        // //3) Write a program to print sum of odd numbers in the fibonnaci series and number should be added only once
+
+    // var num=+prompt("ent val ;  ")
+    //         a=0,b=1
+    //         c=a+b
+    //         emp=0,e=0
+    //         for(i=0;i<num;i++){
+    //             console.log(a)
+    //             if(a%2==1){
+    //             emp=emp+a;
+    //         }
+    //         c=a+b
+    //         a=b
+    //         b=c
+    //     }
+    //     e=emp-1
+    //         console.log("sum of odd fibonacci number are "+e);
+          
+
+    //     //4)Write a program to print the below series based on input
+    //     //Enter a number: -10 (should not use <= operator)
+    //     //output: -10 -9 -8 - 7 -6 - 5 - 4,,, -1
+    //     //output: -1-2-3 ,,, -10 (should not use >= operator) 
+
+    //     var a=-10;
+    //     b=[];
+    //    while (true) {
+    //     if(a==0){
+    //         break;
+    //     }
+    //     else{
+    //         b.push(a);
+    //     }
+    //     a++;
+    //    }
+    //    console.log(b);
+    //    console.log(b.reverse());
+
+    </script>
+</body>
+</html>
